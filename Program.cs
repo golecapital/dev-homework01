@@ -19,6 +19,15 @@ namespace dev_homework01
 
             double sueldo=14.3;
 
+            char charcito='c';
+            float flotante=3.1F/5.6F;
+            double doubles=3.1D/5.7D;
+            decimal decimals=3.1M/5.8M;
+
+            Console.WriteLine($"{flotante}");            
+            Console.WriteLine($"{doubles}");            
+            Console.WriteLine($"{decimals}");            
+
             var resultado=sueldo*2 + 1 + edad;
 
             Console.WriteLine(resultado + "  " + edades);
